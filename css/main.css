@@ -1,0 +1,360 @@
+/* Styles for header and footer*/
+body{
+    margin: 0;
+}
+
+.backgroundimg{
+    position: fixed;
+    z-index: -1;
+}
+
+/* Heading CSS Starts */
+i{
+    color:rgb(179, 179, 179);
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.logo_bar{
+    background: rgba(5, 5, 5, 0.274);
+    margin: 0;
+    height: 110px;
+    border-bottom: 1px dotted rgba(117, 117, 117, 0.438) ;
+}
+
+#socialmedia_icons{
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+#socialmedia_icons a{
+    text-decoration: none;
+}
+
+.fa-facebook:hover{
+    transition: 0.2s;
+    color: blue;
+}
+
+.fa-instagram:hover{
+    transition: 0.2s;
+    color: red;
+}
+
+.fa-twitter:hover{
+    transition: 0.2s;
+    color: blue;
+}
+
+.fa-youtube:hover{
+    transition: 0.2s;
+    color: red;
+}
+
+.fa-linkedin:hover{
+    transition: 0.2s;
+    color: blue;
+}
+
+#logo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#login_button{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    float:right;
+    color:white;
+    margin-top: 20px;
+    margin-right:20px;
+    height: 35px;
+
+}
+
+#login_button:hover{
+    transition: 0.2s;
+    color: #2e2be0;
+    border-bottom: 2px solid #2e2be0;
+}
+
+.nav_bar{
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 60px;
+    background:rgba(5, 5, 5, 0.274);
+    
+}
+.nav_bar .nav_items a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    position: sticky;
+    top: 0%;
+}
+.nav_bar .nav_items #button1{
+    margin-top: 3px;
+    margin-left:60px;
+    margin-right:20px;
+    height: 30px;
+    float: left;
+}
+
+.nav_bar .nav_items #button2{
+    margin-top: 3px;
+    margin-left:10px;
+    margin-right:20px;
+    height: 30px;
+    float: left;
+}
+
+.nav_bar .nav_items #button3{
+    margin-top: 3px;
+    margin-left:10px;
+    margin-right:20px;
+    height: 30px;
+    float: left;
+}
+
+.nav_bar .nav_items #button4{
+    margin-top: 3px;
+    margin-left:10px;
+    margin-right:20px;
+    height: 30px;
+    float: left;
+}
+
+.nav_bar .nav_items #button5{
+    margin-top: 3px;
+    margin-left:10px;
+    margin-right:20px;
+    height: 30px;
+    float: left;
+}
+
+.nav_bar .nav_items #button6{
+    margin-top: 3px;
+    margin-left:10px;
+    margin-right:20px;
+    height: 30px;
+    float: left;
+}
+
+.nav_bar .nav_items #button7{
+    margin-top: 3px;
+    margin-left:10px;
+    margin-right:20px;
+    height: 30px;
+    float: left;
+}
+
+.nav_bar .nav_items #button1:hover{
+    transition: 0.2s;
+    color: rgb(218, 118, 81);
+    border-bottom: 2px solid orangered;
+}
+
+
+.nav_bar .nav_items #button2:hover{
+    transition: 0.2s;
+    color: rgb(218, 118, 81);
+    border-bottom: 2px solid orangered;
+}
+
+
+.nav_bar .nav_items #button3:hover{
+    transition: 0.2s;
+    color: rgb(218, 118, 81);
+    border-bottom: 2px solid orangered;
+}
+
+
+.nav_bar .nav_items #button4:hover{
+    transition: 0.2s;
+    color: rgb(218, 118, 81);
+    border-bottom: 2px solid orangered;
+}
+
+
+.nav_bar .nav_items #button5:hover{
+    transition: 0.2s;
+    color: rgb(218, 118, 81);
+    border-bottom: 2px solid orangered;
+}
+
+
+.nav_bar .nav_items #button6:hover{
+    transition: 0.2s;
+    color: rgb(218, 118, 81);
+    border-bottom: 2px solid orangered;
+}
+
+.nav_bar .nav_items #button7:hover{
+    transition: 0.2s;
+    color: rgb(218, 118, 81);
+    border-bottom: 2px solid orangered;
+}
+
+.nav_bar #search_bar{
+    float: right;
+    margin-right: 150px;
+}
+
+input[type=text]{
+    margin-top: 4px;
+    width: 150%;
+    height: 25px;
+}
+/*.avatar{
+
+    width:50px;
+    float: right;
+}*/
+
+/* Heading CSS Ends */
+
+/* Footer CSS Starts */
+
+.footer_1{
+    background:rgba(75, 74, 74, 0.226);
+    width: 100%;
+    float: left;
+    clear: both;
+    margin: 0;
+}
+
+.footer_1 li{
+    list-style: none;
+}
+
+.footer_1 a{
+    text-decoration: none;
+    color: rgb(201, 198, 198);
+}
+
+.footer_1 .list_1{
+    float: left;
+    margin-top: 0px;
+    line-height: 250%;
+    font-size: 16px;
+    margin-left: 170px;
+    font-family: sans-serif;
+}
+
+.footer_1 .list_2{
+    float: left;
+    margin-top: 0px;
+    line-height: 250%;
+    font-size: 16px;
+    margin-left: 100px;
+    font-family: sans-serif;
+}
+
+.footer_1 .nav_list1{
+    margin-top: 0px;
+    float: left;
+    line-height: 160%;
+    margin-left: 100px;
+}
+
+.footer_1 .nav_list1 h2{
+    color: rgb(201, 198, 198);
+    padding-left: 40px;
+}
+
+.footer_1 .nav_list2{
+    margin-top: 0px;
+    float: left;
+    line-height: 160%; 
+    margin-left: 100px;
+}
+
+.footer_1 .nav_list2 h2{
+    color: rgb(201, 198, 198);
+    padding-left: 40px;
+}
+
+.footer_1 .footer_sm_icons h2{
+    color: rgb(201, 198, 198);
+}
+
+.footer_1 .footer_sm_icons h3{
+    color: rgb(201, 198, 198);
+    font-size: 17px;
+}
+
+.footer_1 .footer_sm_icons{
+    margin-top: 0px;
+    float: left;
+    margin-left: 100px;
+}
+
+.footer_1 .list_1 a:hover{
+    transition: 0.3s;
+    color: rgb(58, 9, 172);
+}
+
+.footer_1 .list_2 a:hover{
+    transition: 0.3s;
+    color: rgb(58, 9, 172);
+}
+
+.footer_1 .nav_list1 a:hover{
+    transition: 0.3s;
+    color: rgb(58, 9, 172);
+}
+
+.footer_1 .nav_list2 a:hover{
+    transition: 0.3s;
+    color: rgb(58, 9, 172);
+}
+
+.footer_1 .footer_sm_icons h3:hover{
+    transition: 0.3s;
+    color: rgb(58, 9, 172);
+}
+.footer_2 #logo{
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.footer_2 .cards{
+    float: right;
+    clear: right;
+}
+
+.footer_2 .download{
+    margin-top: 10px;
+    float: right;
+    clear: right;
+}
+
+.footer_2 .wordbox{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    clear: both;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px dotted rgba(175, 173, 173, 0.288);
+    border-bottom: 1px dotted rgba(175, 173, 173, 0.288);
+}
+
+.footer_2 .wordbox #allrights a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.footer_2 .wordbox #allrights a:hover{
+    transition: 0.5s;
+    color: orangered;
+}
+
+/* Footer CSS Ends */
